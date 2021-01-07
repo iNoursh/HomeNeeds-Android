@@ -1,5 +1,6 @@
 package com.inour.homeneeds
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -15,12 +16,17 @@ class MainActivity : AppCompatActivity(), AddNewItemFragment.OnFragmentInteracti
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         addNewItem = findViewById(R.id.addNewItem)
+        var pref = getSharedPreferences(packageName, Context.MODE_PRIVATE)
+
     }
 
     override fun onFragmentInteractionListener(type: String) {
         if (type == "cancel") {
             hideAddNewItem()
         }
+    }
+
+    override fun onBackPressed() {
     }
 
     fun hideAddNewItem() {

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "432507259082",
+    "firebase_url": "https://home-needs-c069a.firebaseio.com",
+    "project_id": "home-needs-c069a",
+    "storage_bucket": "home-needs-c069a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432507259082:android:c3eb71cb38a66654e30c33",
+        "android_client_info": {
+          "package_name": "com.inour.homeneeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432507259082-dq5fmvcimi8i61crogsc1qta757pgd0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZalRCD7hLsKRtQyK5IruGuMcAZHn4WvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432507259082-dq5fmvcimi8i61crogsc1qta757pgd0f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "432507259082-1cjo15njq8voqe3l2id5d8mb6uv6uj94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iNour.HomeNeeds"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

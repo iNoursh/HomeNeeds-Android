@@ -39,7 +39,7 @@ class AddNewItemFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         numberPicker = view.findViewById(R.id.editCount)
         numberPicker?.maxValue = 10
-        numberPicker?.minValue = 0
+        numberPicker?.minValue = 1
         val cancelBtn: Button = view.findViewById(R.id.btnCancel)
         cancelBtn.setOnClickListener {
             hideAddNewItem()
